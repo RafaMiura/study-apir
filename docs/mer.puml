@@ -1,0 +1,33 @@
+@startuml diagram
+
+title MER - 
+
+skinparam linetype ortho
+
+entity "produto" as produto {
+  *id : number <<generated>>
+  --
+  *nome : text
+  valor: monetary
+}
+
+entity "pedido" as pedido {
+  *id : number <<generated>>
+  --
+  status: text
+}
+
+entity "itens" as itens {
+  *id : number <<generated>>
+  --
+  *pedido_id : number <<FK>>
+  *produto_id : number <<FK>>
+  quantidade: number
+  valor: monetary
+ 
+}
+
+produto ||--o{ itens
+pedido ||--o{ itens
+
+@enduml
