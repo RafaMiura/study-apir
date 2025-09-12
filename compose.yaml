@@ -6,11 +6,12 @@ services:
       - MYSQL_USER=new_user
       - MYSQL_PASSWORD=my_pwd
     ports:
-      - 3307:3306  
+      - 3306:3306  
     networks:
       - app-networks
   api:
-    build: .
+    # build: .
+    image: guibezerra/study-apir:0.0.1
     depends_on:
       - db
     ports:
