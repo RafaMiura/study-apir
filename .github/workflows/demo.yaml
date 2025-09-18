@@ -1,3 +1,4 @@
+name: Demo de Workflow
 on: push
 
 jobs:
