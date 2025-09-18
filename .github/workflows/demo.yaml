@@ -12,8 +12,8 @@ jobs:
           echo "Mensagem 3"
           ls -la
 
-    demo2:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Etapa 1
-        run: Echo "Estou na etapa 1"
+  demo2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step1
+        run: echo "Estou na etapa 1"
