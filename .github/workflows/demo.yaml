@@ -17,5 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: demo1
     steps:
-      - name: step1
+      - name: Etapa 1
         run: echo "Estou na etapa 1"
+      - name: Clone do repositorio
+        run: gitclone http://
