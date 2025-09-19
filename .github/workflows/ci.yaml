@@ -13,3 +13,10 @@ jobs:
         with:
           username: ${{ vars.DOCKER_USER }}
           password: ${{ secrets.DOCKER_TOKEN }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+
+        with:
+          push: true
+          tags: rafaooo/study-apir:latest
