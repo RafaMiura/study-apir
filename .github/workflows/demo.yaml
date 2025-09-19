@@ -1,6 +1,6 @@
 name: Demo de Workflow
 on: push
-
+# jobs -> organizar as tarefas e contem listas de tarefas (steps)
 jobs:
   demo1:
     runs-on: ubuntu-latest
