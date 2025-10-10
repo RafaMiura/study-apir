@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/RafaMiura/study-apir/compare/v1.2.0...v1.2.1) (2025-10-10)
+
+
+### Bug Fixes
+
+* uppercase ([9f90197](https://github.com/RafaMiura/study-apir/commit/9f90197c57c731e478319fefe9d5135e95ca1ae3))
+
 ## [1.2.0](https://github.com/RafaMiura/study-apir/compare/v1.1.0...v1.2.0) (2025-10-10)
 
 
