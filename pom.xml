@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.github.acnaweb</groupId>
 	<artifactId>study-apir</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>study-apir</name>
 	<description>API de estudos</description>
 	<url/>
