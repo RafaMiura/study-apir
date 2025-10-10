@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/RafaMiura/study-apir/compare/v1.1.0...v1.2.0) (2025-10-10)
+
+
+### Features
+
+* rename change return pong ([36188db](https://github.com/RafaMiura/study-apir/commit/36188db3ccceaf327e6fcf42f99806a360f031c0))
+
 ## [1.1.0](https://github.com/RafaMiura/study-apir/compare/v1.0.0...v1.1.0) (2025-10-10)
 
 
