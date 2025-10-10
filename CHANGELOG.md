@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/RafaMiura/study-apir/compare/v1.2.1...v1.3.0) (2025-10-10)
+
+
+### Features
+
+* setup ci ([15def1c](https://github.com/RafaMiura/study-apir/commit/15def1c439b15f1176f90dbaf839e136c784f275))
+
+
+### Documentation
+
+* rename title ([a129066](https://github.com/RafaMiura/study-apir/commit/a1290664ced6aded4575a780908d7bdad30a1dce))
+
 ## [1.2.1](https://github.com/RafaMiura/study-apir/compare/v1.2.0...v1.2.1) (2025-10-10)
 
 
