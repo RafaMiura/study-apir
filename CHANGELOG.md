@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/RafaMiura/study-apir/compare/v1.0.0...v1.1.0) (2025-10-10)
+
+
+### Features
+
+* update pongx2 ([54c2b08](https://github.com/RafaMiura/study-apir/commit/54c2b082b705384eb6569baa5c1e04cf586c7973))
+
+
+### Bug Fixes
+
+* tirando info ([4d146a9](https://github.com/RafaMiura/study-apir/commit/4d146a9fa1a5637d72116213861f706a3c5c97b6))
+
 ## 1.0.0 (2025-10-10)
 
 
