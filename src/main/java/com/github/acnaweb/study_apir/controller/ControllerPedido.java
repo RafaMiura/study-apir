@@ -1,4 +1,4 @@
-package com.github.acnaweb.study_apir.controller;
+package com.github.acnaweb.study_apir.controller
 
 import java.util.List;
 import java.util.stream.Collectors;
