@@ -13,4 +13,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Build da Aplicacao
         run: mvn clean package  
+      - name: Execução de testes unitários 
+        run: mvn test   
       
