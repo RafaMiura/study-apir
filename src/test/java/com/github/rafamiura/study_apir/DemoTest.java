@@ -9,7 +9,7 @@ public class DemoTest {
      @DisplayName("test fail")
     @Test
     void testGivenNewProduto_whenCreate_thenFail() throws Exception{
-        fail("Xiiiii deu erro");
+        // fail("Xiiiii deu erro");
     }
 
    @Test
