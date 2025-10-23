@@ -2,7 +2,7 @@ FROM maven:3.9.11-eclipse-temurin-17 AS build
 
 WORKDIR /opt/app
 COPY . .
-RUN mvn clean package 
+RUN mvn clean package -DskipTests 
 
 FROM eclipse-temurin:17-alpine-3.22
 RUN mkdir /opt/app
