@@ -13,12 +13,12 @@ services:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 5s
       timeout: 3s
-      retries: 5
+      retries: 5 
   api:
-    build: .
+    # build: .
+    image: guibezerra/study-apir:0.0.1
     depends_on:
-      db:
-        condition: service_healthy
+      - db
     ports:
       - 9000:9000
     environment:
